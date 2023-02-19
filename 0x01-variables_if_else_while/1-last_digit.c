@@ -2,7 +2,7 @@
 #include <time.h>
 /* more headers goes there */
 #include <stdio.h>
-/* bestty style doc for function main goes there */
+/* betty style doc for function main goes there */
 /**
  * main - main function
  *
@@ -22,7 +22,7 @@ int main(void)
 	else if (m == 0)
 		printf("last digit of %d is %d and is 0", 1, m);
 	else if (m < 6 && m != 0)
-		print("last digit of %d is %d and is less than 6 and not 0", n, m);
+		printf("last digit of %d is %d and is less than 6 and not 0", n, m);
 	printf("\n");
 
 	return (0);
